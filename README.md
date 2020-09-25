@@ -153,5 +153,14 @@ The colorability of 50-node graph is: 6 colors
 The colorability of 100-node graph is: 6 colors
 ```
 
+## Problem 3 [Solving Sudoku Using SAT Solvers]
+Sudoku is a popular number-placement puzzle that originated in France in the end of the 19th century. Modern Sudoku was likely invented by Howard Garns from Connersville, Indiana and was first published in 1979 under the name “Number Place”. The objective of the puzzle is to place numbers 1 - 9 on a 9times9 grid, such that each number occurs only once in every row, every column, and every of the nine 3×3 sub-grids that compose the main grid. Sudoku puzzles are grids that have been partially occupied with numbers. The task is then to occupy the remaining fields in such a way that the constraints on rows, columns, and sub-grids are satisfied. A sample Sudoku problem and its solution are given in Figure 1. For more information about Sudoku refer to its Wikipedia page at http://en.wikipedia.org/wiki/Sudoku.  
+This problem has two parts. In the first part, you will write the boolean constraints in mathematical notation for solving a Sudoku puzzle. In the second part, you will write code and invoke a SAT solver to solve the Sudoku instance.
+
+### Part 1:
+###### 1. Write the boolean formula for the constraints that each number can occur at most once in every row. [5 points]
+
+2. Write the boolean formula for the constraints that each number can occur at most once in every column. [5 points]
+3. Write the boolean formula for the constraints that each number can occur at most once in every 3×3 sub-grid.
 
 
