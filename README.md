@@ -3,7 +3,7 @@ Author: Martin Meng
 
 This is the repository for HW2 of UNC's COMP 590: Program Verification and Synthesis.
 
-The file 'script.py' contains the code for all questions.
+The file 'script.py' contains the code for all questions.  
 The directory "resultingFiles" contains the output of the script.
 
 ## Problem 1
@@ -18,7 +18,7 @@ There is a basket containing an apple, a banana, a cherry and a date. Four child
 (d) Hank likes apples , bananas , and dates.
 ```
 
-###### Answer: 
+#### Answer: 
 We have 4 kids and 4 fruits. Every kid likes 2 to 3 kinds of fruits.
 
     Step 1: make constants for kids and fruits.
@@ -37,7 +37,7 @@ Hank gets banana
 ```
 
 ### 1.2
-###### Question: 
+#### Question: 
 Three fellows accused of stealing CDs make the following statements:
 ```
 • Ed: “Fred did it, and Ted is innocent”.
@@ -46,7 +46,7 @@ Three fellows accused of stealing CDs make the following statements:
 ```
 If the innocent told the truth and the guilty lied, who is guilty?
 
-###### Answer: 
+#### Answer: 
 Let us assume that at least one person is innocent and at least one guilty. So there is one or two guilty guys. We can encode whether a person is guilty or not with a boolean variable. If the boolean value is true, then the person is guilty. 
 
     Step 1: make boolean variables for each person.
