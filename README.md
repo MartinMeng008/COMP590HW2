@@ -6,7 +6,7 @@ This is the repository for HW2 of UNC's COMP 590: Program Verification and Synth
 The file 'script.py' contains the code for all questions.  
 The directory "resultingFiles" contains the output of the script.
 
-## Problem 1
+## Problem 1 [Silly Puzzles] 
 
 ### 1.1
 #### Question: 
@@ -109,8 +109,10 @@ sat
 )
 ```
 
-## Problem 2
+## Problem 2 [Graph Coloring] 
+Attached with this homework are four files with description of graphs. The first line in the file gives the list of vertices (from 0 to n − 1). The second line contains a sequence of pairs that represents the edges in the graphs. Use SAT solver to encode the coloring constraints and find out the colorability of the graphs.
 
+This problem asks how many colors are needed to color each graph. We can change this quantity problem to be a decision problem by quering "is the constraint satisfiable under 1 color, 2 colors, ..."
 ### 2.1 Graph of 6 nodes
 
 
