@@ -121,16 +121,23 @@ Let's consider one such decision problem. Suppose we have n nodes and m colors. 
 ..., 
 n_1, n_2, ..., n_m.  
 ```
-We also need to consider 2 constraints.  
+We also need to consider the following constraints.  
 
-Constraint 1: each node has a unique color.
+Constraint 1: each node needs to have a color.
+```
+1_1 or 1_2 or ... or 1_m, 
+..., 
+n_1 or n_2 or ... or n_m.  
+```
+
+Constraint 2: each node has a unique color.
 ```
 (1_1 => not (1_2 or 1_3 or ... or 1_m)) and (1_2 => not (1_1 or 1_3 or ... or 1_m)) and ... and (1_m => not (1_1 or 1_2 or ... or 1_m-1))
 ...
 (n_1 => not (n_2 or n_3 or ... or n_m)) and (n_2 => not (n_1 or n_3 or ... or n_m)) and ... and (n_m => not (n_1 or n_2 or ... or n_m-1))
 ```              
 
-Constraint 2: adjacent nodes have different colors.
+Constraint 3: adjacent nodes have different colors.
 ```
 (1_1 => not (2_1 or 3_1)) and (1_2 => not (2_2 or 3_2)) and ... and (1_m => not (2_m or 3_m)), if node 1 is adjacent to node 2 and node 3.
 ...
