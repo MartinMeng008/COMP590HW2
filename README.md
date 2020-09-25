@@ -15,7 +15,7 @@ There is a basket containing an apple, a banana, a cherry and a date. Four child
 (a) Erica likes cherries and dates. 
 (b) Frank likes apples and cherries.
 (c) Greg likes bananas and cherries.
-(d) Hank likes apples , bananas , and dates.
+(d) Hank likes apples, bananas, and dates.
 ```
 
 #### Answer: 
