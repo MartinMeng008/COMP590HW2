@@ -1,6 +1,7 @@
 # HW2
-Martin Meng
+Author: Martin Meng
 
+This is the repository for HW2 of UNC's COMP 590: Program Verification and Synthesis.
 The file 'script.py' contains the code for all questions.
 Results are in the directory "resultingFiles".
 
