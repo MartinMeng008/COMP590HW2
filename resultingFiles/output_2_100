@@ -1,0 +1,1203 @@
+sat
+(model 
+  (define-fun n12_0 () Bool
+    false)
+  (define-fun n80_2 () Bool
+    false)
+  (define-fun n6_1 () Bool
+    true)
+  (define-fun n80_0 () Bool
+    false)
+  (define-fun n71_3 () Bool
+    false)
+  (define-fun n45_1 () Bool
+    false)
+  (define-fun n81_0 () Bool
+    false)
+  (define-fun n63_3 () Bool
+    false)
+  (define-fun n60_4 () Bool
+    true)
+  (define-fun n50_0 () Bool
+    false)
+  (define-fun n12_5 () Bool
+    false)
+  (define-fun n3_0 () Bool
+    false)
+  (define-fun n54_0 () Bool
+    false)
+  (define-fun n33_3 () Bool
+    false)
+  (define-fun n0_2 () Bool
+    true)
+  (define-fun n12_2 () Bool
+    true)
+  (define-fun n72_1 () Bool
+    true)
+  (define-fun n76_4 () Bool
+    false)
+  (define-fun n58_4 () Bool
+    true)
+  (define-fun n22_0 () Bool
+    false)
+  (define-fun n25_1 () Bool
+    false)
+  (define-fun n21_1 () Bool
+    false)
+  (define-fun n48_3 () Bool
+    false)
+  (define-fun n37_4 () Bool
+    false)
+  (define-fun n5_5 () Bool
+    false)
+  (define-fun n74_3 () Bool
+    true)
+  (define-fun n75_5 () Bool
+    false)
+  (define-fun n80_3 () Bool
+    true)
+  (define-fun n0_1 () Bool
+    false)
+  (define-fun n59_2 () Bool
+    false)
+  (define-fun n26_0 () Bool
+    false)
+  (define-fun n8_1 () Bool
+    false)
+  (define-fun n75_1 () Bool
+    true)
+  (define-fun n93_1 () Bool
+    true)
+  (define-fun n64_4 () Bool
+    false)
+  (define-fun n6_0 () Bool
+    false)
+  (define-fun n2_0 () Bool
+    true)
+  (define-fun n87_3 () Bool
+    false)
+  (define-fun n95_5 () Bool
+    false)
+  (define-fun n29_1 () Bool
+    true)
+  (define-fun n34_0 () Bool
+    false)
+  (define-fun n38_4 () Bool
+    false)
+  (define-fun n92_3 () Bool
+    false)
+  (define-fun n56_3 () Bool
+    false)
+  (define-fun n64_5 () Bool
+    true)
+  (define-fun n93_3 () Bool
+    false)
+  (define-fun n49_2 () Bool
+    false)
+  (define-fun n61_2 () Bool
+    false)
+  (define-fun n45_0 () Bool
+    false)
+  (define-fun n61_4 () Bool
+    false)
+  (define-fun n52_5 () Bool
+    false)
+  (define-fun n76_2 () Bool
+    false)
+  (define-fun n27_4 () Bool
+    false)
+  (define-fun n50_4 () Bool
+    false)
+  (define-fun n28_4 () Bool
+    false)
+  (define-fun n94_2 () Bool
+    false)
+  (define-fun n95_4 () Bool
+    false)
+  (define-fun n59_5 () Bool
+    false)
+  (define-fun n82_2 () Bool
+    false)
+  (define-fun n1_0 () Bool
+    false)
+  (define-fun n55_5 () Bool
+    false)
+  (define-fun n77_3 () Bool
+    true)
+  (define-fun n9_5 () Bool
+    false)
+  (define-fun n29_5 () Bool
+    false)
+  (define-fun n28_1 () Bool
+    false)
+  (define-fun n27_1 () Bool
+    false)
+  (define-fun n26_1 () Bool
+    true)
+  (define-fun n53_4 () Bool
+    true)
+  (define-fun n88_4 () Bool
+    false)
+  (define-fun n16_1 () Bool
+    false)
+  (define-fun n15_0 () Bool
+    true)
+  (define-fun n90_4 () Bool
+    false)
+  (define-fun n94_3 () Bool
+    false)
+  (define-fun n92_2 () Bool
+    false)
+  (define-fun n66_5 () Bool
+    false)
+  (define-fun n42_2 () Bool
+    false)
+  (define-fun n88_3 () Bool
+    true)
+  (define-fun n18_3 () Bool
+    false)
+  (define-fun n34_3 () Bool
+    false)
+  (define-fun n8_5 () Bool
+    false)
+  (define-fun n11_3 () Bool
+    false)
+  (define-fun n32_5 () Bool
+    true)
+  (define-fun n97_0 () Bool
+    false)
+  (define-fun n56_1 () Bool
+    false)
+  (define-fun n80_4 () Bool
+    false)
+  (define-fun n23_2 () Bool
+    false)
+  (define-fun n40_4 () Bool
+    true)
+  (define-fun n63_5 () Bool
+    false)
+  (define-fun n82_4 () Bool
+    true)
+  (define-fun n36_3 () Bool
+    false)
+  (define-fun n72_2 () Bool
+    false)
+  (define-fun n44_1 () Bool
+    false)
+  (define-fun n72_0 () Bool
+    false)
+  (define-fun n64_1 () Bool
+    false)
+  (define-fun n31_5 () Bool
+    false)
+  (define-fun n30_3 () Bool
+    false)
+  (define-fun n57_1 () Bool
+    true)
+  (define-fun n24_4 () Bool
+    false)
+  (define-fun n41_5 () Bool
+    false)
+  (define-fun n70_3 () Bool
+    false)
+  (define-fun n47_1 () Bool
+    false)
+  (define-fun n84_1 () Bool
+    false)
+  (define-fun n50_1 () Bool
+    true)
+  (define-fun n44_3 () Bool
+    false)
+  (define-fun n48_4 () Bool
+    false)
+  (define-fun n39_3 () Bool
+    false)
+  (define-fun n97_2 () Bool
+    false)
+  (define-fun n54_2 () Bool
+    false)
+  (define-fun n78_0 () Bool
+    false)
+  (define-fun n71_5 () Bool
+    false)
+  (define-fun n86_5 () Bool
+    false)
+  (define-fun n38_2 () Bool
+    true)
+  (define-fun n62_0 () Bool
+    false)
+  (define-fun n89_2 () Bool
+    false)
+  (define-fun n8_3 () Bool
+    false)
+  (define-fun n66_0 () Bool
+    false)
+  (define-fun n38_5 () Bool
+    false)
+  (define-fun n77_4 () Bool
+    false)
+  (define-fun n28_0 () Bool
+    false)
+  (define-fun n87_1 () Bool
+    false)
+  (define-fun n36_0 () Bool
+    false)
+  (define-fun n11_4 () Bool
+    false)
+  (define-fun n47_4 () Bool
+    true)
+  (define-fun n16_0 () Bool
+    true)
+  (define-fun n41_2 () Bool
+    false)
+  (define-fun n37_2 () Bool
+    true)
+  (define-fun n28_5 () Bool
+    false)
+  (define-fun n97_4 () Bool
+    false)
+  (define-fun n26_2 () Bool
+    false)
+  (define-fun n44_4 () Bool
+    false)
+  (define-fun n58_2 () Bool
+    false)
+  (define-fun n72_5 () Bool
+    false)
+  (define-fun n31_2 () Bool
+    true)
+  (define-fun n35_2 () Bool
+    false)
+  (define-fun n53_5 () Bool
+    false)
+  (define-fun n57_5 () Bool
+    false)
+  (define-fun n52_4 () Bool
+    true)
+  (define-fun n91_2 () Bool
+    false)
+  (define-fun n33_1 () Bool
+    false)
+  (define-fun n41_1 () Bool
+    false)
+  (define-fun n4_4 () Bool
+    false)
+  (define-fun n2_4 () Bool
+    false)
+  (define-fun n36_1 () Bool
+    false)
+  (define-fun n50_5 () Bool
+    false)
+  (define-fun n29_3 () Bool
+    false)
+  (define-fun n43_1 () Bool
+    false)
+  (define-fun n5_0 () Bool
+    false)
+  (define-fun n87_2 () Bool
+    false)
+  (define-fun n13_4 () Bool
+    true)
+  (define-fun n25_5 () Bool
+    false)
+  (define-fun n31_4 () Bool
+    false)
+  (define-fun n96_5 () Bool
+    false)
+  (define-fun n29_0 () Bool
+    false)
+  (define-fun n0_0 () Bool
+    false)
+  (define-fun n79_5 () Bool
+    false)
+  (define-fun n56_5 () Bool
+    false)
+  (define-fun n23_3 () Bool
+    false)
+  (define-fun n22_3 () Bool
+    false)
+  (define-fun n83_5 () Bool
+    false)
+  (define-fun n85_1 () Bool
+    false)
+  (define-fun n94_0 () Bool
+    false)
+  (define-fun n7_3 () Bool
+    true)
+  (define-fun n58_5 () Bool
+    false)
+  (define-fun n54_3 () Bool
+    false)
+  (define-fun n8_4 () Bool
+    true)
+  (define-fun n81_5 () Bool
+    false)
+  (define-fun n18_4 () Bool
+    false)
+  (define-fun n30_1 () Bool
+    false)
+  (define-fun n49_0 () Bool
+    false)
+  (define-fun n84_0 () Bool
+    false)
+  (define-fun n39_5 () Bool
+    false)
+  (define-fun n85_3 () Bool
+    true)
+  (define-fun n89_3 () Bool
+    false)
+  (define-fun n94_1 () Bool
+    false)
+  (define-fun n98_3 () Bool
+    false)
+  (define-fun n99_1 () Bool
+    false)
+  (define-fun n54_4 () Bool
+    false)
+  (define-fun n30_2 () Bool
+    true)
+  (define-fun n77_1 () Bool
+    false)
+  (define-fun n34_4 () Bool
+    false)
+  (define-fun n83_3 () Bool
+    false)
+  (define-fun n74_2 () Bool
+    false)
+  (define-fun n2_3 () Bool
+    false)
+  (define-fun n24_0 () Bool
+    false)
+  (define-fun n23_5 () Bool
+    false)
+  (define-fun n35_1 () Bool
+    false)
+  (define-fun n62_1 () Bool
+    false)
+  (define-fun n40_2 () Bool
+    false)
+  (define-fun n10_4 () Bool
+    true)
+  (define-fun n87_0 () Bool
+    false)
+  (define-fun n22_5 () Bool
+    false)
+  (define-fun n7_4 () Bool
+    false)
+  (define-fun n83_1 () Bool
+    false)
+  (define-fun n85_2 () Bool
+    false)
+  (define-fun n46_2 () Bool
+    false)
+  (define-fun n11_0 () Bool
+    false)
+  (define-fun n64_0 () Bool
+    false)
+  (define-fun n21_0 () Bool
+    false)
+  (define-fun n70_5 () Bool
+    false)
+  (define-fun n99_2 () Bool
+    false)
+  (define-fun n34_1 () Bool
+    false)
+  (define-fun n95_0 () Bool
+    false)
+  (define-fun n42_5 () Bool
+    false)
+  (define-fun n20_2 () Bool
+    false)
+  (define-fun n62_5 () Bool
+    false)
+  (define-fun n52_2 () Bool
+    false)
+  (define-fun n43_3 () Bool
+    false)
+  (define-fun n97_1 () Bool
+    true)
+  (define-fun n94_4 () Bool
+    false)
+  (define-fun n16_4 () Bool
+    false)
+  (define-fun n91_4 () Bool
+    false)
+  (define-fun n73_0 () Bool
+    false)
+  (define-fun n6_3 () Bool
+    false)
+  (define-fun n5_1 () Bool
+    false)
+  (define-fun n53_0 () Bool
+    false)
+  (define-fun n68_2 () Bool
+    false)
+  (define-fun n64_3 () Bool
+    false)
+  (define-fun n38_0 () Bool
+    false)
+  (define-fun n17_4 () Bool
+    false)
+  (define-fun n71_0 () Bool
+    true)
+  (define-fun n84_4 () Bool
+    false)
+  (define-fun n87_4 () Bool
+    false)
+  (define-fun n33_4 () Bool
+    false)
+  (define-fun n74_5 () Bool
+    false)
+  (define-fun n35_4 () Bool
+    false)
+  (define-fun n69_3 () Bool
+    true)
+  (define-fun n32_3 () Bool
+    false)
+  (define-fun n32_0 () Bool
+    false)
+  (define-fun n1_1 () Bool
+    false)
+  (define-fun n61_1 () Bool
+    false)
+  (define-fun n80_5 () Bool
+    false)
+  (define-fun n65_3 () Bool
+    false)
+  (define-fun n20_5 () Bool
+    false)
+  (define-fun n80_1 () Bool
+    false)
+  (define-fun n42_4 () Bool
+    true)
+  (define-fun n66_2 () Bool
+    false)
+  (define-fun n24_1 () Bool
+    false)
+  (define-fun n42_0 () Bool
+    false)
+  (define-fun n28_3 () Bool
+    true)
+  (define-fun n12_3 () Bool
+    false)
+  (define-fun n27_2 () Bool
+    false)
+  (define-fun n75_0 () Bool
+    false)
+  (define-fun n79_4 () Bool
+    false)
+  (define-fun n6_4 () Bool
+    false)
+  (define-fun n93_5 () Bool
+    false)
+  (define-fun n1_2 () Bool
+    false)
+  (define-fun n37_0 () Bool
+    false)
+  (define-fun n69_1 () Bool
+    false)
+  (define-fun n9_4 () Bool
+    false)
+  (define-fun n97_3 () Bool
+    false)
+  (define-fun n52_1 () Bool
+    false)
+  (define-fun n98_0 () Bool
+    false)
+  (define-fun n78_1 () Bool
+    false)
+  (define-fun n29_4 () Bool
+    false)
+  (define-fun n45_2 () Bool
+    false)
+  (define-fun n13_1 () Bool
+    false)
+  (define-fun n40_5 () Bool
+    false)
+  (define-fun n52_0 () Bool
+    false)
+  (define-fun n11_1 () Bool
+    false)
+  (define-fun n88_5 () Bool
+    false)
+  (define-fun n95_3 () Bool
+    false)
+  (define-fun n44_0 () Bool
+    false)
+  (define-fun n3_5 () Bool
+    false)
+  (define-fun n63_0 () Bool
+    true)
+  (define-fun n21_5 () Bool
+    false)
+  (define-fun n43_0 () Bool
+    false)
+  (define-fun n88_1 () Bool
+    false)
+  (define-fun n31_1 () Bool
+    false)
+  (define-fun n49_1 () Bool
+    false)
+  (define-fun n84_5 () Bool
+    false)
+  (define-fun n46_3 () Bool
+    false)
+  (define-fun n51_3 () Bool
+    false)
+  (define-fun n16_5 () Bool
+    false)
+  (define-fun n67_1 () Bool
+    false)
+  (define-fun n56_0 () Bool
+    true)
+  (define-fun n93_4 () Bool
+    false)
+  (define-fun n4_1 () Bool
+    false)
+  (define-fun n4_3 () Bool
+    false)
+  (define-fun n45_3 () Bool
+    true)
+  (define-fun n92_1 () Bool
+    false)
+  (define-fun n76_5 () Bool
+    false)
+  (define-fun n20_0 () Bool
+    false)
+  (define-fun n65_4 () Bool
+    false)
+  (define-fun n89_0 () Bool
+    false)
+  (define-fun n10_0 () Bool
+    false)
+  (define-fun n90_0 () Bool
+    false)
+  (define-fun n28_2 () Bool
+    false)
+  (define-fun n60_1 () Bool
+    false)
+  (define-fun n9_0 () Bool
+    false)
+  (define-fun n39_2 () Bool
+    true)
+  (define-fun n67_3 () Bool
+    false)
+  (define-fun n68_0 () Bool
+    false)
+  (define-fun n69_4 () Bool
+    false)
+  (define-fun n93_0 () Bool
+    false)
+  (define-fun n62_2 () Bool
+    true)
+  (define-fun n88_2 () Bool
+    false)
+  (define-fun n63_4 () Bool
+    false)
+  (define-fun n18_0 () Bool
+    false)
+  (define-fun n14_0 () Bool
+    false)
+  (define-fun n79_0 () Bool
+    true)
+  (define-fun n7_1 () Bool
+    false)
+  (define-fun n44_2 () Bool
+    true)
+  (define-fun n35_5 () Bool
+    true)
+  (define-fun n66_1 () Bool
+    false)
+  (define-fun n58_0 () Bool
+    false)
+  (define-fun n91_1 () Bool
+    false)
+  (define-fun n27_5 () Bool
+    false)
+  (define-fun n73_3 () Bool
+    false)
+  (define-fun n82_1 () Bool
+    false)
+  (define-fun n41_0 () Bool
+    true)
+  (define-fun n66_3 () Bool
+    true)
+  (define-fun n54_5 () Bool
+    true)
+  (define-fun n21_2 () Bool
+    false)
+  (define-fun n39_0 () Bool
+    false)
+  (define-fun n55_4 () Bool
+    false)
+  (define-fun n71_2 () Bool
+    false)
+  (define-fun n21_3 () Bool
+    true)
+  (define-fun n33_0 () Bool
+    false)
+  (define-fun n5_4 () Bool
+    true)
+  (define-fun n1_3 () Bool
+    true)
+  (define-fun n15_2 () Bool
+    false)
+  (define-fun n15_1 () Bool
+    false)
+  (define-fun n61_3 () Bool
+    false)
+  (define-fun n16_3 () Bool
+    false)
+  (define-fun n46_5 () Bool
+    false)
+  (define-fun n53_2 () Bool
+    false)
+  (define-fun n78_2 () Bool
+    true)
+  (define-fun n89_4 () Bool
+    true)
+  (define-fun n25_4 () Bool
+    false)
+  (define-fun n47_0 () Bool
+    false)
+  (define-fun n10_5 () Bool
+    false)
+  (define-fun n38_1 () Bool
+    false)
+  (define-fun n83_0 () Bool
+    true)
+  (define-fun n19_3 () Bool
+    false)
+  (define-fun n85_0 () Bool
+    false)
+  (define-fun n38_3 () Bool
+    false)
+  (define-fun n14_4 () Bool
+    false)
+  (define-fun n18_1 () Bool
+    false)
+  (define-fun n1_4 () Bool
+    false)
+  (define-fun n10_2 () Bool
+    false)
+  (define-fun n13_3 () Bool
+    false)
+  (define-fun n25_2 () Bool
+    false)
+  (define-fun n99_5 () Bool
+    true)
+  (define-fun n58_3 () Bool
+    false)
+  (define-fun n14_1 () Bool
+    true)
+  (define-fun n20_3 () Bool
+    false)
+  (define-fun n50_2 () Bool
+    false)
+  (define-fun n31_3 () Bool
+    false)
+  (define-fun n0_5 () Bool
+    false)
+  (define-fun n51_4 () Bool
+    true)
+  (define-fun n24_3 () Bool
+    true)
+  (define-fun n82_5 () Bool
+    false)
+  (define-fun n22_2 () Bool
+    false)
+  (define-fun n17_5 () Bool
+    false)
+  (define-fun n39_1 () Bool
+    false)
+  (define-fun n84_3 () Bool
+    true)
+  (define-fun n90_1 () Bool
+    true)
+  (define-fun n91_0 () Bool
+    true)
+  (define-fun n26_3 () Bool
+    false)
+  (define-fun n4_0 () Bool
+    false)
+  (define-fun n36_2 () Bool
+    false)
+  (define-fun n60_3 () Bool
+    false)
+  (define-fun n17_0 () Bool
+    false)
+  (define-fun n77_0 () Bool
+    false)
+  (define-fun n65_5 () Bool
+    true)
+  (define-fun n16_2 () Bool
+    false)
+  (define-fun n17_2 () Bool
+    false)
+  (define-fun n35_3 () Bool
+    false)
+  (define-fun n42_1 () Bool
+    false)
+  (define-fun n25_3 () Bool
+    true)
+  (define-fun n54_1 () Bool
+    false)
+  (define-fun n6_2 () Bool
+    false)
+  (define-fun n71_4 () Bool
+    false)
+  (define-fun n17_1 () Bool
+    false)
+  (define-fun n89_1 () Bool
+    false)
+  (define-fun n19_4 () Bool
+    false)
+  (define-fun n25_0 () Bool
+    false)
+  (define-fun n17_3 () Bool
+    true)
+  (define-fun n81_1 () Bool
+    true)
+  (define-fun n37_1 () Bool
+    false)
+  (define-fun n77_5 () Bool
+    false)
+  (define-fun n85_4 () Bool
+    false)
+  (define-fun n15_3 () Bool
+    false)
+  (define-fun n3_2 () Bool
+    false)
+  (define-fun n69_2 () Bool
+    false)
+  (define-fun n64_2 () Bool
+    false)
+  (define-fun n92_4 () Bool
+    false)
+  (define-fun n37_3 () Bool
+    false)
+  (define-fun n99_3 () Bool
+    false)
+  (define-fun n11_2 () Bool
+    true)
+  (define-fun n32_2 () Bool
+    false)
+  (define-fun n57_2 () Bool
+    false)
+  (define-fun n82_3 () Bool
+    false)
+  (define-fun n60_5 () Bool
+    false)
+  (define-fun n70_2 () Bool
+    false)
+  (define-fun n4_5 () Bool
+    false)
+  (define-fun n21_4 () Bool
+    false)
+  (define-fun n40_3 () Bool
+    false)
+  (define-fun n72_4 () Bool
+    false)
+  (define-fun n99_4 () Bool
+    false)
+  (define-fun n5_3 () Bool
+    false)
+  (define-fun n7_2 () Bool
+    false)
+  (define-fun n48_2 () Bool
+    false)
+  (define-fun n13_0 () Bool
+    false)
+  (define-fun n60_0 () Bool
+    false)
+  (define-fun n47_5 () Bool
+    false)
+  (define-fun n86_4 () Bool
+    false)
+  (define-fun n48_1 () Bool
+    false)
+  (define-fun n11_5 () Bool
+    false)
+  (define-fun n67_0 () Bool
+    false)
+  (define-fun n40_1 () Bool
+    false)
+  (define-fun n92_0 () Bool
+    false)
+  (define-fun n73_5 () Bool
+    false)
+  (define-fun n7_5 () Bool
+    false)
+  (define-fun n82_0 () Bool
+    false)
+  (define-fun n18_5 () Bool
+    false)
+  (define-fun n22_4 () Bool
+    true)
+  (define-fun n79_2 () Bool
+    false)
+  (define-fun n19_1 () Bool
+    false)
+  (define-fun n72_3 () Bool
+    false)
+  (define-fun n98_4 () Bool
+    false)
+  (define-fun n10_3 () Bool
+    false)
+  (define-fun n19_0 () Bool
+    true)
+  (define-fun n26_5 () Bool
+    false)
+  (define-fun n23_0 () Bool
+    true)
+  (define-fun n23_1 () Bool
+    false)
+  (define-fun n12_4 () Bool
+    false)
+  (define-fun n53_3 () Bool
+    false)
+  (define-fun n62_4 () Bool
+    false)
+  (define-fun n63_1 () Bool
+    false)
+  (define-fun n9_2 () Bool
+    true)
+  (define-fun n68_1 () Bool
+    false)
+  (define-fun n70_4 () Bool
+    false)
+  (define-fun n74_0 () Bool
+    false)
+  (define-fun n78_5 () Bool
+    false)
+  (define-fun n0_3 () Bool
+    false)
+  (define-fun n86_1 () Bool
+    false)
+  (define-fun n61_0 () Bool
+    true)
+  (define-fun n81_2 () Bool
+    false)
+  (define-fun n90_5 () Bool
+    false)
+  (define-fun n98_2 () Bool
+    false)
+  (define-fun n34_2 () Bool
+    false)
+  (define-fun n36_5 () Bool
+    true)
+  (define-fun n56_2 () Bool
+    false)
+  (define-fun n4_2 () Bool
+    true)
+  (define-fun n67_2 () Bool
+    false)
+  (define-fun n8_2 () Bool
+    false)
+  (define-fun n0_4 () Bool
+    false)
+  (define-fun n33_5 () Bool
+    true)
+  (define-fun n36_4 () Bool
+    false)
+  (define-fun n55_0 () Bool
+    false)
+  (define-fun n19_2 () Bool
+    false)
+  (define-fun n96_3 () Bool
+    true)
+  (define-fun n3_3 () Bool
+    false)
+  (define-fun n14_2 () Bool
+    false)
+  (define-fun n5_2 () Bool
+    false)
+  (define-fun n60_2 () Bool
+    false)
+  (define-fun n63_2 () Bool
+    false)
+  (define-fun n67_5 () Bool
+    true)
+  (define-fun n59_4 () Bool
+    false)
+  (define-fun n14_5 () Bool
+    false)
+  (define-fun n86_0 () Bool
+    false)
+  (define-fun n51_0 () Bool
+    false)
+  (define-fun n43_5 () Bool
+    false)
+  (define-fun n48_0 () Bool
+    false)
+  (define-fun n48_5 () Bool
+    true)
+  (define-fun n94_5 () Bool
+    true)
+  (define-fun n71_1 () Bool
+    false)
+  (define-fun n68_5 () Bool
+    false)
+  (define-fun n86_2 () Bool
+    false)
+  (define-fun n33_2 () Bool
+    false)
+  (define-fun n92_5 () Bool
+    true)
+  (define-fun n30_4 () Bool
+    false)
+  (define-fun n15_4 () Bool
+    false)
+  (define-fun n46_0 () Bool
+    false)
+  (define-fun n1_5 () Bool
+    false)
+  (define-fun n97_5 () Bool
+    false)
+  (define-fun n32_1 () Bool
+    false)
+  (define-fun n75_3 () Bool
+    false)
+  (define-fun n99_0 () Bool
+    false)
+  (define-fun n13_2 () Bool
+    false)
+  (define-fun n18_2 () Bool
+    true)
+  (define-fun n95_1 () Bool
+    true)
+  (define-fun n3_1 () Bool
+    false)
+  (define-fun n6_5 () Bool
+    false)
+  (define-fun n58_1 () Bool
+    false)
+  (define-fun n37_5 () Bool
+    false)
+  (define-fun n59_0 () Bool
+    true)
+  (define-fun n74_1 () Bool
+    false)
+  (define-fun n75_4 () Bool
+    false)
+  (define-fun n96_1 () Bool
+    false)
+  (define-fun n10_1 () Bool
+    false)
+  (define-fun n51_1 () Bool
+    false)
+  (define-fun n43_2 () Bool
+    true)
+  (define-fun n57_4 () Bool
+    false)
+  (define-fun n87_5 () Bool
+    true)
+  (define-fun n51_5 () Bool
+    false)
+  (define-fun n2_1 () Bool
+    false)
+  (define-fun n96_0 () Bool
+    false)
+  (define-fun n93_2 () Bool
+    false)
+  (define-fun n34_5 () Bool
+    true)
+  (define-fun n81_4 () Bool
+    false)
+  (define-fun n9_1 () Bool
+    false)
+  (define-fun n45_4 () Bool
+    false)
+  (define-fun n50_3 () Bool
+    false)
+  (define-fun n12_1 () Bool
+    false)
+  (define-fun n15_5 () Bool
+    false)
+  (define-fun n30_5 () Bool
+    false)
+  (define-fun n74_4 () Bool
+    false)
+  (define-fun n57_0 () Bool
+    false)
+  (define-fun n53_1 () Bool
+    false)
+  (define-fun n42_3 () Bool
+    false)
+  (define-fun n59_3 () Bool
+    false)
+  (define-fun n81_3 () Bool
+    false)
+  (define-fun n69_5 () Bool
+    false)
+  (define-fun n39_4 () Bool
+    false)
+  (define-fun n49_5 () Bool
+    false)
+  (define-fun n19_5 () Bool
+    false)
+  (define-fun n68_4 () Bool
+    true)
+  (define-fun n56_4 () Bool
+    false)
+  (define-fun n20_4 () Bool
+    true)
+  (define-fun n24_2 () Bool
+    false)
+  (define-fun n14_3 () Bool
+    false)
+  (define-fun n73_1 () Bool
+    true)
+  (define-fun n2_2 () Bool
+    false)
+  (define-fun n41_3 () Bool
+    false)
+  (define-fun n70_1 () Bool
+    false)
+  (define-fun n73_4 () Bool
+    false)
+  (define-fun n73_2 () Bool
+    false)
+  (define-fun n90_2 () Bool
+    false)
+  (define-fun n35_0 () Bool
+    false)
+  (define-fun n47_2 () Bool
+    false)
+  (define-fun n67_4 () Bool
+    false)
+  (define-fun n69_0 () Bool
+    false)
+  (define-fun n46_1 () Bool
+    true)
+  (define-fun n85_5 () Bool
+    false)
+  (define-fun n52_3 () Bool
+    false)
+  (define-fun n9_3 () Bool
+    false)
+  (define-fun n88_0 () Bool
+    false)
+  (define-fun n89_5 () Bool
+    false)
+  (define-fun n90_3 () Bool
+    false)
+  (define-fun n3_4 () Bool
+    true)
+  (define-fun n30_0 () Bool
+    false)
+  (define-fun n78_4 () Bool
+    false)
+  (define-fun n91_3 () Bool
+    false)
+  (define-fun n77_2 () Bool
+    false)
+  (define-fun n59_1 () Bool
+    false)
+  (define-fun n76_1 () Bool
+    false)
+  (define-fun n31_0 () Bool
+    false)
+  (define-fun n83_4 () Bool
+    false)
+  (define-fun n68_3 () Bool
+    false)
+  (define-fun n40_0 () Bool
+    false)
+  (define-fun n55_3 () Bool
+    false)
+  (define-fun n41_4 () Bool
+    false)
+  (define-fun n32_4 () Bool
+    false)
+  (define-fun n55_1 () Bool
+    false)
+  (define-fun n27_3 () Bool
+    false)
+  (define-fun n44_5 () Bool
+    false)
+  (define-fun n46_4 () Bool
+    false)
+  (define-fun n98_1 () Bool
+    false)
+  (define-fun n29_2 () Bool
+    false)
+  (define-fun n55_2 () Bool
+    true)
+  (define-fun n61_5 () Bool
+    false)
+  (define-fun n20_1 () Bool
+    false)
+  (define-fun n65_2 () Bool
+    false)
+  (define-fun n7_0 () Bool
+    false)
+  (define-fun n76_3 () Bool
+    false)
+  (define-fun n45_5 () Bool
+    false)
+  (define-fun n51_2 () Bool
+    false)
+  (define-fun n65_0 () Bool
+    false)
+  (define-fun n65_1 () Bool
+    false)
+  (define-fun n78_3 () Bool
+    false)
+  (define-fun n8_0 () Bool
+    false)
+  (define-fun n43_4 () Bool
+    false)
+  (define-fun n84_2 () Bool
+    false)
+  (define-fun n96_2 () Bool
+    false)
+  (define-fun n95_2 () Bool
+    false)
+  (define-fun n27_0 () Bool
+    true)
+  (define-fun n47_3 () Bool
+    false)
+  (define-fun n23_4 () Bool
+    false)
+  (define-fun n62_3 () Bool
+    false)
+  (define-fun n70_0 () Bool
+    true)
+  (define-fun n79_1 () Bool
+    false)
+  (define-fun n91_5 () Bool
+    false)
+  (define-fun n66_4 () Bool
+    false)
+  (define-fun n98_5 () Bool
+    true)
+  (define-fun n26_4 () Bool
+    false)
+  (define-fun n49_4 () Bool
+    true)
+  (define-fun n75_2 () Bool
+    false)
+  (define-fun n96_4 () Bool
+    false)
+  (define-fun n13_5 () Bool
+    false)
+  (define-fun n49_3 () Bool
+    false)
+  (define-fun n57_3 () Bool
+    false)
+  (define-fun n22_1 () Bool
+    false)
+  (define-fun n76_0 () Bool
+    true)
+  (define-fun n24_5 () Bool
+    false)
+  (define-fun n2_5 () Bool
+    false)
+  (define-fun n79_3 () Bool
+    false)
+  (define-fun n83_2 () Bool
+    false)
+  (define-fun n86_3 () Bool
+    true)
+)

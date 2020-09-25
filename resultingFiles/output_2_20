@@ -1,0 +1,163 @@
+sat
+(model 
+  (define-fun n2_2 () Bool
+    false)
+  (define-fun n14_3 () Bool
+    false)
+  (define-fun n17_0 () Bool
+    false)
+  (define-fun n12_0 () Bool
+    false)
+  (define-fun n16_1 () Bool
+    false)
+  (define-fun n11_0 () Bool
+    true)
+  (define-fun n15_0 () Bool
+    false)
+  (define-fun n16_2 () Bool
+    false)
+  (define-fun n4_1 () Bool
+    true)
+  (define-fun n3_3 () Bool
+    false)
+  (define-fun n4_3 () Bool
+    false)
+  (define-fun n5_2 () Bool
+    false)
+  (define-fun n6_1 () Bool
+    false)
+  (define-fun n6_2 () Bool
+    false)
+  (define-fun n14_2 () Bool
+    false)
+  (define-fun n17_1 () Bool
+    false)
+  (define-fun n17_2 () Bool
+    false)
+  (define-fun n19_2 () Bool
+    true)
+  (define-fun n9_3 () Bool
+    false)
+  (define-fun n17_3 () Bool
+    true)
+  (define-fun n10_0 () Bool
+    true)
+  (define-fun n18_3 () Bool
+    false)
+  (define-fun n11_3 () Bool
+    false)
+  (define-fun n9_0 () Bool
+    false)
+  (define-fun n3_0 () Bool
+    true)
+  (define-fun n3_2 () Bool
+    false)
+  (define-fun n15_3 () Bool
+    false)
+  (define-fun n0_2 () Bool
+    true)
+  (define-fun n12_2 () Bool
+    true)
+  (define-fun n11_2 () Bool
+    false)
+  (define-fun n6_3 () Bool
+    true)
+  (define-fun n5_1 () Bool
+    false)
+  (define-fun n5_0 () Bool
+    true)
+  (define-fun n14_0 () Bool
+    true)
+  (define-fun n18_0 () Bool
+    false)
+  (define-fun n7_1 () Bool
+    true)
+  (define-fun n0_1 () Bool
+    false)
+  (define-fun n5_3 () Bool
+    false)
+  (define-fun n7_2 () Bool
+    false)
+  (define-fun n8_1 () Bool
+    true)
+  (define-fun n13_0 () Bool
+    true)
+  (define-fun n13_2 () Bool
+    false)
+  (define-fun n18_2 () Bool
+    false)
+  (define-fun n3_1 () Bool
+    false)
+  (define-fun n6_0 () Bool
+    false)
+  (define-fun n2_0 () Bool
+    false)
+  (define-fun n0_0 () Bool
+    false)
+  (define-fun n1_1 () Bool
+    true)
+  (define-fun n7_0 () Bool
+    false)
+  (define-fun n1_3 () Bool
+    false)
+  (define-fun n10_1 () Bool
+    false)
+  (define-fun n15_1 () Bool
+    false)
+  (define-fun n15_2 () Bool
+    true)
+  (define-fun n16_3 () Bool
+    true)
+  (define-fun n7_3 () Bool
+    false)
+  (define-fun n8_0 () Bool
+    false)
+  (define-fun n2_1 () Bool
+    false)
+  (define-fun n12_3 () Bool
+    false)
+  (define-fun n19_1 () Bool
+    false)
+  (define-fun n19_3 () Bool
+    false)
+  (define-fun n1_2 () Bool
+    false)
+  (define-fun n9_1 () Bool
+    true)
+  (define-fun n12_1 () Bool
+    false)
+  (define-fun n10_3 () Bool
+    false)
+  (define-fun n18_1 () Bool
+    true)
+  (define-fun n10_2 () Bool
+    false)
+  (define-fun n13_3 () Bool
+    false)
+  (define-fun n19_0 () Bool
+    false)
+  (define-fun n13_1 () Bool
+    false)
+  (define-fun n1_0 () Bool
+    false)
+  (define-fun n8_3 () Bool
+    false)
+  (define-fun n9_2 () Bool
+    false)
+  (define-fun n11_1 () Bool
+    false)
+  (define-fun n2_3 () Bool
+    true)
+  (define-fun n0_3 () Bool
+    false)
+  (define-fun n14_1 () Bool
+    false)
+  (define-fun n4_2 () Bool
+    false)
+  (define-fun n16_0 () Bool
+    false)
+  (define-fun n8_2 () Bool
+    false)
+  (define-fun n4_0 () Bool
+    false)
+)

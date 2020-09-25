@@ -1,0 +1,9 @@
+(declare-const is_Ed_guilty Bool)
+(declare-const is_Fred_guilty Bool)
+(declare-const is_Ted_guilty Bool)
+
+(assert (=> (not is_Ed_guilty) (and is_Fred_guilty (not is_Ted_guilty))))
+(assert (=> (not is_Fred_guilty) (and is_Ed_guilty is_Ted_guilty)))
+(assert (=> (not is_Ted_guilty) (or is_Ed_guilty is_Fred_guilty)))
+(check-sat)
+(get-model)

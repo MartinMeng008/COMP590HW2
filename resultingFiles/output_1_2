@@ -1,0 +1,9 @@
+sat
+(model 
+  (define-fun is_Fred_guilty () Bool
+    false)
+  (define-fun is_Ted_guilty () Bool
+    true)
+  (define-fun is_Ed_guilty () Bool
+    true)
+)

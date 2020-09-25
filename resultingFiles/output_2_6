@@ -1,0 +1,27 @@
+sat
+(model 
+  (define-fun n0_1 () Bool
+    false)
+  (define-fun n4_0 () Bool
+    true)
+  (define-fun n2_1 () Bool
+    true)
+  (define-fun n1_1 () Bool
+    true)
+  (define-fun n1_0 () Bool
+    false)
+  (define-fun n5_1 () Bool
+    false)
+  (define-fun n4_1 () Bool
+    false)
+  (define-fun n5_0 () Bool
+    true)
+  (define-fun n3_1 () Bool
+    true)
+  (define-fun n3_0 () Bool
+    false)
+  (define-fun n2_0 () Bool
+    false)
+  (define-fun n0_0 () Bool
+    true)
+)
