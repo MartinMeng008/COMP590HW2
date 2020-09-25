@@ -2,8 +2,9 @@
 Author: Martin Meng
 
 This is the repository for HW2 of UNC's COMP 590: Program Verification and Synthesis.
+
 The file 'script.py' contains the code for all questions.
-Results are in the directory "resultingFiles".
+The directory "resultingFiles" contains the output of the script.
 
 ## Problem 1
 
