@@ -3,9 +3,9 @@ Martin Meng
 
 The file 'script.py' contains the code for all questions.
 
-##Problem 1
+## Problem 1
 
-###1.1
+### 1.1
 We have 4 kids and 4 fruits. Every kid likes 2 to 3 kinds of fruits.
 
     Step 1: make constants for kids and fruits.
@@ -20,7 +20,7 @@ We have 4 kids and 4 fruits. Every kid likes 2 to 3 kinds of fruits.
 
 The result file is shown in resultingFiles/output\_1\_1. It says that Erica gets date, Frank gets apple, Greg gets cherry, and Hank gets banana.
 
-###1.2
+### 1.2
 Let us assume that at least one person is innocent and at least one guilty. So there is one or two guilty guys. We can encode whether a person is guilty or not with a boolean variable. If the boolean value is true, then the person is guilty. 
 
     Step 1: make boolean variables for each person.
@@ -75,7 +75,7 @@ sat
     true)
 )
 
-##Problem 2
+## Problem 2
 
-###2.1 Graph of 6 nodes
+### 2.1 Graph of 6 nodes
 
