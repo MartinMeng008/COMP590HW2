@@ -172,36 +172,47 @@ Similar to problem 2, we make 9*9*9 = 729 boolean variables. An variable i_j_k =
 ```
 
 ##### 1. Write the boolean formula for the constraints that each number can occur at most once in every row. [5 points]
-
+```
 for all j in [1:9], 
 for all k in [1:9],  
 for all i in [1:9],  
     i\_j\_k => not (or (i\_j'\_k for all j' in [1:9] such that j' != j))
+```
 
 ```
 1_1_1 => not (1_2_1 or 1_3_1 or ... or 1_9_1)
 2_1_1 => not (2_2_1 or 2_3_1 or ... or 2_9_1)
 ...
 9_1_1 => not (9_2_1 or 9_3_1 or ... or 9_9_1)
+```
+```
 1_1_2 => not (1_2_2 or 1_3_2 or ... or 1_9_2)
 2_1_2 => not (2_2_2 or 2_3_2 or ... or 2_9_2)
 ...
 9_1_2 => not (9_2_2 or 9_3_2 or ... or 9_9_2)
+```
 ...
+```
 1_1_9 => not (1_2_9 or 1_3_9 or ... or 1_9_9)
 2_1_9 => not (2_2_9 or 2_3_9 or ... or 2_9_9)
 ...
 9_1_9 => not (9_2_9 or 9_3_9 or ... or 9_9_9)
+```
 ...
+```
 1_9_1 => not (1_2_1 or 1_3_1 or ... or 1_1_1)
 2_9_1 => not (2_2_1 or 2_3_1 or ... or 2_1_1)
 ...
 9_9_1 => not (9_2_1 or 9_3_1 or ... or 9_1_1)
+```
+```
 1_9_2 => not (1_2_2 or 1_3_2 or ... or 1_1_2)
 2_9_2 => not (2_2_2 or 2_3_2 or ... or 2_1_2)
 ...
 9_9_2 => not (9_2_2 or 9_3_2 or ... or 9_1_2)
+```
 ...
+```
 1_9_9 => not (1_2_9 or 1_3_9 or ... or 1_1_9)
 2_9_9 => not (2_2_9 or 2_3_9 or ... or 2_1_9)
 ...
@@ -210,12 +221,13 @@ for all i in [1:9],
 
 
 ##### 2. Write the boolean formula for the constraints that each number can occur at most once in every column. [5 points]. 
-
+```
 for all i in [1:9],  
 for all k in [1:9],  
 for all j in [1:9],  
     i\_j\_k => not (or (i'\_j\_k for all i' in [1:9] such that i' != i)) 
-    
+```
+
 ```
 1_1_1 => not or (2_1_1 ... 9_1_1)
 ...
