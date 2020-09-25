@@ -264,4 +264,24 @@ for all k in [1:9],
                      i != i' or j != j'
                      )
 ```
+### Part 2
+#### Question
+Encode the above constraints in a SAT solver and solve the Sudoku instance given in Figure 1. One of the widely used techniques is to encode these constraints using the API of the SAT solver. Two popular options are as follows; 1) Using Z3 (downloadable at http://z3.codeplex.com/) and use Python API and 2) Use MiniSAT (downloadable at http: //minisat.se/) and use C++ API. Alternatively, you can write code to generate constraints in SMT-2 format (described at http://smtlib.cs.uiowa.edu) and give the SMT-2 file as an
+input to the binary of SAT solver.[25 points]
 
+#### Solution
+```
+Step 1: make boolean variables.
+Step 2: add constraints.
+    2.1: each cell has at least one value
+        for all i in [1:9], j in [1:9]
+            i_j_1 or i_j_2 or ... or i_j_9
+    2.2: each cell has not more than one value
+        for all i in [1:9], j in [1:9], k in [1:9]
+        i_j_k => not or (i_j_k') for all k' in [1:9] such that k' != k
+    2.3: each number can occur at most once in every row
+    2.4: each number can occur at most once in every column
+    2.5: each number can occur at most once in every 3×3 sub-grid
+Step 3: add constraint from the question (figure 1)
+Step 4: check-sat and get-model
+```
