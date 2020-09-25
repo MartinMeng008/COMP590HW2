@@ -21,11 +21,8 @@ We have 4 kids and 4 fruits. Every kid likes 2 to 3 kinds of fruits.
     Step 1: make constants for kids and fruits.
     Step 2: add constraints that formulate.
         2.1: if a kid chooses one fruit, then she cannot choose another.
-            e.g. (assert (=> (= (like Erica) apple) (not (or (= (like Erica) banana) (= (like Erica) cherry) (= (like Erica) date)))))
         2.2: if a fruit is chosen by a kid, then it cannot be choosen by other kids.
-            e.g. (assert (=> (= (like Erica) apple) (not (or (= (like Frank) apple) (= (like Greg) apple) (= (like Hank) apple)))))
     Step 3: add kids' preference.
-        e.g. (assert (or (= (like Erica) cherry) (= (like Erica) date)))
     Step 4: check sat and get model.
 
 The result file is shown in resultingFiles/output\_1\_1. It says that one possible assignment is: 
@@ -37,6 +34,12 @@ Hank gets banana
 ```
 
 ### 1.2
+Question: Three fellows accused of stealing CDs make the following statements:
+• Ed: “Fred did it, and Ted is innocent”.
+• Fred: “If Ed is guilty , then so is Ted”.
+• Ted: “’Im innocent , but at least one of the others is guilty”.
+If the innocent told the truth and the guilty lied, who is guilty?
+
 Let us assume that at least one person is innocent and at least one guilty. So there is one or two guilty guys. We can encode whether a person is guilty or not with a boolean variable. If the boolean value is true, then the person is guilty. 
 
     Step 1: make boolean variables for each person.
