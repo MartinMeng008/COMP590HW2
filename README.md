@@ -18,7 +18,7 @@ There is a basket containing an apple, a banana, a cherry and a date. Four child
 (d) Hank likes apples, bananas, and dates.
 ```
 
-#### Answer: 
+#### Solution: 
 We have 4 kids and 4 fruits. Every kid likes 2 to 3 kinds of fruits.
 
     Step 1: make constants for kids and fruits.
@@ -46,7 +46,7 @@ Three fellows accused of stealing CDs make the following statements:
 ```
 If the innocent told the truth and the guilty lied, who is guilty?
 
-#### Answer: 
+#### Solution: 
 Let us assume that at least one person is innocent and at least one guilty. So there is one or two guilty guys. We can encode whether a person is guilty or not with a boolean variable. If the boolean value is true, then the person is guilty. 
 
     Step 1: make boolean variables for each person.
@@ -110,8 +110,10 @@ sat
 ```
 
 ## Problem 2 [Graph Coloring] 
+#### Question: 
 Attached with this homework are four files with description of graphs. The first line in the file gives the list of vertices (from 0 to n − 1). The second line contains a sequence of pairs that represents the edges in the graphs. Use SAT solver to encode the coloring constraints and find out the colorability of the graphs.
 
+#### Solution: 
 This problem asks how many colors are needed to color each graph. We can change this quantity problem to be a decision problem by quering "is the constraint satisfiable under 1 color, 2 colors, ..."
 
 Let's consider one such decision problem. Suppose we have n nodes and m colors. Then for each node we need to create m boolean variable: 
