@@ -143,9 +143,13 @@ Constraint 3: adjacent nodes have different colors.
 ...
 (n_1 => not (2_1 or 3_1)) and (n_2 => not (2_2 or 3_2)) and ... and (n_m => not (2_m or 3_m)), if node n is adjacent to node 2 and node 3.
 ```
-Now we can solve the quantitive problem by sending queries to this small problem.
-
-### 2.1 Graph of 6 nodes
+This problem is solved in the is_colorable() method in the script. Now we can solve the quantitive problem by sending queries to this function, and this step is accomplished in the method colorability(). The result is here:
+```
+The colorability of 6-node graph is: 2 colors
+The colorability of 20-node graph is: 4 colors
+The colorability of 50-node graph is: 6 colors
+The colorability of 100-node graph is: 6 colors
+```
 
 
 
