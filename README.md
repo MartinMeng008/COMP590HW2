@@ -123,6 +123,8 @@ Let's consider one such decision problem. Suppose we have n nodes and m colors. 
 ..., 
 n_1, n_2, ..., n_m.  
 ```
+The variable i_j == true iff node i has color j.  
+
 We also need to consider the following constraints.  
 
 Constraint 1: each node needs to have a color.
@@ -154,13 +156,30 @@ The colorability of 100-node graph is: 6 colors
 ```
 
 ## Problem 3 [Solving Sudoku Using SAT Solvers]
+#### Question: 
 Sudoku is a popular number-placement puzzle that originated in France in the end of the 19th century. Modern Sudoku was likely invented by Howard Garns from Connersville, Indiana and was first published in 1979 under the name “Number Place”. The objective of the puzzle is to place numbers 1 - 9 on a 9times9 grid, such that each number occurs only once in every row, every column, and every of the nine 3×3 sub-grids that compose the main grid. Sudoku puzzles are grids that have been partially occupied with numbers. The task is then to occupy the remaining fields in such a way that the constraints on rows, columns, and sub-grids are satisfied. A sample Sudoku problem and its solution are given in Figure 1. For more information about Sudoku refer to its Wikipedia page at http://en.wikipedia.org/wiki/Sudoku.  
 This problem has two parts. In the first part, you will write the boolean constraints in mathematical notation for solving a Sudoku puzzle. In the second part, you will write code and invoke a SAT solver to solve the Sudoku instance.
 
 ### Part 1:
+
+#### Solution: 
+Similar to problem 2, we make 9*9*9 = 729 boolean variables. An variable i_j_k == true iff k is placed at row i and column j.
+```
+1_1_1 ... 1_1_9, 1_2_1 ... 1_2_9, ... 1_9_1 ... 1_9_9,
+2_1_1 ... 2_1_9, 2_2_1 ... 2_2_9, ... 2_9_1 ... 2_9_9,
+...
+9_1_1 ... 9_1_9, 9_2_1 ... 9_2_9, ... 9_9_1 ... 9_9_9,
+```
+
 ##### 1. Write the boolean formula for the constraints that each number can occur at most once in every row. [5 points]
 
-###### 2. Write the boolean formula for the constraints that each number can occur at most once in every column. [5 points]
-###### 3. Write the boolean formula for the constraints that each number can occur at most once in every 3×3 sub-grid.
+for all k in [1:9],
+for all i in [1:9],
+
+
+
+
+##### 2. Write the boolean formula for the constraints that each number can occur at most once in every column. [5 points]
+##### 3. Write the boolean formula for the constraints that each number can occur at most once in every 3×3 sub-grid.
 
 
