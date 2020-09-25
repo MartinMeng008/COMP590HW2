@@ -9,7 +9,7 @@ The directory "resultingFiles" contains the output of the script.
 ## Problem 1
 
 ### 1.1
-###### Question: 
+#### Question: 
 There is a basket containing an apple, a banana, a cherry and a date. Four children named Erica, Frank, Greg and Hank are each to be given a piece of the fruit.
 ```
 (a) Erica likes cherries and dates. 
