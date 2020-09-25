@@ -1,4 +1,4 @@
-#HW2
+# HW2
 Martin Meng
 
 The file 'script.py' contains the code for all questions.
