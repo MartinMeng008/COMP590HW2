@@ -2,6 +2,7 @@
 Martin Meng
 
 The file 'script.py' contains the code for all questions.
+Results are in the directory "resultingFiles".
 
 ## Problem 1
 
