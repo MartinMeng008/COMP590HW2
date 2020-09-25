@@ -28,44 +28,50 @@ Let us assume that at least one person is innocent and at least one guilty. So t
 
 The smt command is here:
 
-    (declare-const is\_Ed\_guilty Bool)
-    (declare-const is\_Fred\_guilty Bool)
-    (declare-const is\_Ted\_guilty Bool)
+    (declare-const is_Ed_guilty Bool)
+    (declare-const is_Fred_guilty Bool)
+    (declare-const is_Ted_guilty Bool)
     
-    (assert (=> (not is\_Ed\_guilty) (and is\_Fred\_guilty (not is\_Ted\_guilty))))
-    (assert (=> (not is\_Fred\_guilty) (and is\_Ed\_guilty is\_Ted\_guilty)))
-    (assert (=> (not is\_Ted\_guilty) (or is\_Ed\_guilty is\_Fred\_guilty)))
+    (assert (=> (not is_Ed_guilty) (and is_Fred_guilty (not is_Ted_guilty))))
+    (assert (=> (not is_Fred_guilty) (and is_Ed_guilty is_Ted_guilty)))
+    (assert (=> (not is_Ted_guilty) (or is_Ed_guilty is_Fred_guilty)))
 
     (check-sat)
     (get-model)
 
 The result is here:
+```
     sat
     (model 
-      (define-fun is\_Fred\_guilty () Bool
+      (define-fun is_Fred_guilty () Bool
         true)
-      (define-fun is\_Ted\_guilty () Bool
+      (define-fun is_Ted_guilty () Bool
         false)
-      (define-fun is\_Ed\_guilty () Bool
+      (define-fun is_Ed_guilty () Bool
         false)
     )
+```
 
 So one possible case is that Fred is guilty but Ted and Ed are innocent. But if we assume Fred is innocent and add this assertion to our query, we can find out another possibility: Fred is innocent but Ted and Ed are guilty.
 
 The smt command is here:
-    (declare-const is\_Ed\_guilty Bool)
-    (declare-const is\_Fred\_guilty Bool)
-    (declare-const is\_Ted\_guilty Bool)
 
-    (assert (=> (not is\_Ed\_guilty) (and is\_Fred\_guilty (not is\_Ted\_guilty))))
-    (assert (=> (not is\_Fred\_guilty) (and is\_Ed\_guilty is\_Ted\_guilty)))
-    (assert (=> (not is\_Ted\_guilty) (or is\_Ed\_guilty is\_Fred\_guilty)))
+    (declare-const is_Ed_guilty Bool)
+    (declare-const is_Fred_guilty Bool)
+    (declare-const is_Ted_guilty Bool)
+    
+    (assert (=> (not is_Ed_guilty) (and is_Fred_guilty (not is_Ted_guilty))))
+    (assert (=> (not is_Fred_guilty) (and is_Ed_guilty is_Ted_guilty)))
+    (assert (=> (not is_Ted_guilty) (or is_Ed_guilty is_Fred_guilty)))
+
     (assert (not is\_Fred\_guilty))
 
     (check-sat)
     (get-model)
 
 and the resul is here:
+
+```
     sat
     (model 
       (define-fun is\_Ted\_guilty () Bool
@@ -75,6 +81,7 @@ and the resul is here:
       (define-fun is\_Ed\_guilty () Bool
         true)
     )
+```
 
 ## Problem 2
 
