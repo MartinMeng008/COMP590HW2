@@ -81,7 +81,7 @@ def read_graph_input_file(filename):
 def problem_2():
     num_nodes = [6, 20, 50, 100]
     for num in num_nodes:
-        nodes, edges = read_graph_input_file('size%i.txt' % num)
+        nodes, edges = read_graph_input_file('inputFiles/size%i.txt' % num)
         colors = colorability(nodes, edges)
         print('The colorability of %i-node graph is: %i colors' % (num, colors))
 
@@ -175,7 +175,6 @@ def setup():
 
 def main():
     setup()
-    read_graph_input_file('size6.txt')
     problem_1_1()
     problem_1_2()
     problem_2()
