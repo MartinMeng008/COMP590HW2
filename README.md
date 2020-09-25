@@ -9,7 +9,7 @@ The directory "resultingFiles" contains the output of the script.
 ## Problem 1
 
 ### 1.1
-Question: There is a basket containing an apple , a banana , a cherry and a date. Four children named Erica , Frank , Greg and Hank are each to be given a piece of the fruit.
+Question: There is a basket containing an apple, a banana, a cherry and a date. Four children named Erica, Frank, Greg and Hank are each to be given a piece of the fruit.
 ```
 (a) Erica likes cherries and dates. 
 (b) Frank likes apples and cherries.
@@ -28,7 +28,13 @@ We have 4 kids and 4 fruits. Every kid likes 2 to 3 kinds of fruits.
         e.g. (assert (or (= (like Erica) cherry) (= (like Erica) date)))
     Step 4: check sat and get model.
 
-The result file is shown in resultingFiles/output\_1\_1. It says that Erica gets date, Frank gets apple, Greg gets cherry, and Hank gets banana.
+The result file is shown in resultingFiles/output\_1\_1. It says that one possible assignment is: 
+```
+Erica gets date
+Frank gets apple
+Greg gets cherry
+Hank gets banana
+```
 
 ### 1.2
 Let us assume that at least one person is innocent and at least one guilty. So there is one or two guilty guys. We can encode whether a person is guilty or not with a boolean variable. If the boolean value is true, then the person is guilty. 
