@@ -16,7 +16,8 @@ Question: There is a basket containing an apple, a banana, a cherry and a date. 
 (c) Greg likes bananas and cherries.
 (d) Hank likes apples , bananas , and dates.
 ```
-We have 4 kids and 4 fruits. Every kid likes 2 to 3 kinds of fruits.
+
+Answer: We have 4 kids and 4 fruits. Every kid likes 2 to 3 kinds of fruits.
 
     Step 1: make constants for kids and fruits.
     Step 2: add constraints that formulate.
@@ -42,7 +43,7 @@ Question: Three fellows accused of stealing CDs make the following statements:
 ```
 If the innocent told the truth and the guilty lied, who is guilty?
 
-Let us assume that at least one person is innocent and at least one guilty. So there is one or two guilty guys. We can encode whether a person is guilty or not with a boolean variable. If the boolean value is true, then the person is guilty. 
+Answer: Let us assume that at least one person is innocent and at least one guilty. So there is one or two guilty guys. We can encode whether a person is guilty or not with a boolean variable. If the boolean value is true, then the person is guilty. 
 
     Step 1: make boolean variables for each person.
     Step 2: add the constraint for each person.
