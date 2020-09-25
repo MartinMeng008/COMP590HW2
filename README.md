@@ -113,6 +113,31 @@ sat
 Attached with this homework are four files with description of graphs. The first line in the file gives the list of vertices (from 0 to n − 1). The second line contains a sequence of pairs that represents the edges in the graphs. Use SAT solver to encode the coloring constraints and find out the colorability of the graphs.
 
 This problem asks how many colors are needed to color each graph. We can change this quantity problem to be a decision problem by quering "is the constraint satisfiable under 1 color, 2 colors, ..."
+
+Let's consider one such decision problem. Suppose we have n nodes and m colors. Then for each node we need to create m boolean variable: 
+```
+1_1, 1_2, ..., 1_m, 
+2_1, 2_2, ..., 2_m, 
+..., 
+n_1, n_2, ..., n_m.  
+```
+We also need to consider 2 constraints.  
+
+Constraint 1: each node has a unique color.
+```
+(1_1 => not (1_2 or 1_3 or ... or 1_m)) and (1_2 => not (1_1 or 1_3 or ... or 1_m)) and ... and (1_m => not (1_1 or 1_2 or ... or 1_m-1))
+...
+(n_1 => not (n_2 or n_3 or ... or n_m)) and (n_2 => not (n_1 or n_3 or ... or n_m)) and ... and (n_m => not (n_1 or n_2 or ... or n_m-1))
+```              
+
+Constraint 2: adjacent nodes have different colors.
+```
+(1_1 => not (2_1 or 3_1)) and (1_2 => not (2_2 or 3_2)) and ... and (1_m => not (2_m or 3_m)), if node 1 is adjacent to node 2 and node 3.
+...
+(n_1 => not (2_1 or 3_1)) and (n_2 => not (2_2 or 3_2)) and ... and (n_m => not (2_m or 3_m)), if node n is adjacent to node 2 and node 3.
+```
+Now we can solve the quantitive problem by sending queries to this small problem.
+
 ### 2.1 Graph of 6 nodes
 
 
