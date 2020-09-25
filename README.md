@@ -35,9 +35,11 @@ Hank gets banana
 
 ### 1.2
 Question: Three fellows accused of stealing CDs make the following statements:
+```
 • Ed: “Fred did it, and Ted is innocent”.
 • Fred: “If Ed is guilty , then so is Ted”.
 • Ted: “’Im innocent , but at least one of the others is guilty”.
+```
 If the innocent told the truth and the guilty lied, who is guilty?
 
 Let us assume that at least one person is innocent and at least one guilty. So there is one or two guilty guys. We can encode whether a person is guilty or not with a boolean variable. If the boolean value is true, then the person is guilty. 
