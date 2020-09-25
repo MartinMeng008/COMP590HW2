@@ -252,5 +252,16 @@ The concrete result is:
 
 
 ##### 3. Write the boolean formula for the constraints that each number can occur at most once in every 3×3 sub-grid.
-
+```
+for all i in [1:9],  
+for all j in [1:9],  
+for all k in [1:9],  
+    i_j_k => not or (i'_j_'_k for all i'_j' in the same block of i_j and i'_j' != i_j)
+    i.e.
+    i_j_k => not or (i'_j_'_k for all i'_j' such that
+                     i' in [(ceil(i/3)-1)*3+1 : (ceil(i/3)-1)*3+1+2]
+                     j' in [(ceil(j/3)-1)*3+1 : (ceil(j/3)-1)*3+1+2]
+                     i != i' or j != j'
+                     )
+```
 
