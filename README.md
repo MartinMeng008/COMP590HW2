@@ -285,4 +285,4 @@ Step 2: add constraints.
 Step 3: add constraint from the question (figure 1)
 Step 4: check-sat and get-model
 ```
-    ![Soduku puzzle, Figure 1](https://github.com/MartinMeng008/COMP590HW2/blob/master/inputFiles/Sudoku_puzzle_figure1.png)
+![Soduku puzzle, Figure 1](https://github.com/MartinMeng008/COMP590HW2/blob/master/inputFiles/Sudoku_puzzle_figure1.png)
