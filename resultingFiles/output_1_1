@@ -1,0 +1,51 @@
+sat
+(model 
+  ;; universe for Kid:
+  ;;   Kid!val!2 Kid!val!3 Kid!val!0 Kid!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun Kid!val!2 () Kid)
+  (declare-fun Kid!val!3 () Kid)
+  (declare-fun Kid!val!0 () Kid)
+  (declare-fun Kid!val!1 () Kid)
+  ;; cardinality constraint:
+  (forall ((x Kid))
+          (or (= x Kid!val!2) (= x Kid!val!3) (= x Kid!val!0) (= x Kid!val!1)))
+  ;; -----------
+  ;; universe for Fruit:
+  ;;   Fruit!val!1 Fruit!val!0 Fruit!val!3 Fruit!val!2 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun Fruit!val!1 () Fruit)
+  (declare-fun Fruit!val!0 () Fruit)
+  (declare-fun Fruit!val!3 () Fruit)
+  (declare-fun Fruit!val!2 () Fruit)
+  ;; cardinality constraint:
+  (forall ((x Fruit))
+          (or (= x Fruit!val!1)
+              (= x Fruit!val!0)
+              (= x Fruit!val!3)
+              (= x Fruit!val!2)))
+  ;; -----------
+  (define-fun Greg () Kid
+    Kid!val!2)
+  (define-fun banana () Fruit
+    Fruit!val!1)
+  (define-fun date () Fruit
+    Fruit!val!3)
+  (define-fun Hank () Kid
+    Kid!val!3)
+  (define-fun Frank () Kid
+    Kid!val!1)
+  (define-fun apple () Fruit
+    Fruit!val!0)
+  (define-fun cherry () Fruit
+    Fruit!val!2)
+  (define-fun Erica () Kid
+    Kid!val!0)
+  (define-fun like ((x!0 Kid)) Fruit
+    (ite (= x!0 Kid!val!1) Fruit!val!0
+    (ite (= x!0 Kid!val!2) Fruit!val!2
+    (ite (= x!0 Kid!val!3) Fruit!val!1
+      Fruit!val!3))))
+)
