@@ -158,9 +158,9 @@ Sudoku is a popular number-placement puzzle that originated in France in the end
 This problem has two parts. In the first part, you will write the boolean constraints in mathematical notation for solving a Sudoku puzzle. In the second part, you will write code and invoke a SAT solver to solve the Sudoku instance.
 
 ### Part 1:
-###### 1. Write the boolean formula for the constraints that each number can occur at most once in every row. [5 points]
+##### 1. Write the boolean formula for the constraints that each number can occur at most once in every row. [5 points]
 
-2. Write the boolean formula for the constraints that each number can occur at most once in every column. [5 points]
-3. Write the boolean formula for the constraints that each number can occur at most once in every 3×3 sub-grid.
+###### 2. Write the boolean formula for the constraints that each number can occur at most once in every column. [5 points]
+###### 3. Write the boolean formula for the constraints that each number can occur at most once in every 3×3 sub-grid.
 
 
