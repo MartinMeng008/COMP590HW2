@@ -173,7 +173,7 @@ Similar to problem 2, we make 9*9*9 = 729 boolean variables. An variable i_j_k =
 
 ##### 1. Write the boolean formula for the constraints that each number can occur at most once in every row. [5 points]
 
-for all j in [1:9],  
+for all j in [1:9], 
 for all k in [1:9],  
 for all i in [1:9],  
     i\_j\_k => not (or (i\_j'\_k for all j' in [1:9] such that j' != j))
@@ -209,7 +209,32 @@ for all i in [1:9],
 ```
 
 
-##### 2. Write the boolean formula for the constraints that each number can occur at most once in every column. [5 points]
+##### 2. Write the boolean formula for the constraints that each number can occur at most once in every column. [5 points]. 
+
+for all i in [1:9],  
+for all k in [1:9],  
+for all j in [1:9],  
+    i\_j\_k => not (or (i'\_j\_k for all i' in [1:9] such that i' != i)) 
+    
+```
+1_1_1 => not or (2_1_1 ... 9_1_1)
+...
+1_9_1 => not or (2_9_1 ... 9_9_1)
+```
+...
+```
+1_1_9 => not or (2_1_9 ... 9_1_9)
+...
+1_9_9 => not or (2_9_9 ... 9_9_9)
+```
+...
+```
+9_1_9 => not or (2_1_9 ... 1_1_9)
+...
+9_9_9 => not or (2_9_9 ... 1_9_9)
+```
+
+
 ##### 3. Write the boolean formula for the constraints that each number can occur at most once in every 3×3 sub-grid.
 
 
