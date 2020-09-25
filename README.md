@@ -9,6 +9,13 @@ The directory "resultingFiles" contains the output of the script.
 ## Problem 1
 
 ### 1.1
+Question: There is a basket containing an apple , a banana , a cherry and a date. Four children named Erica , Frank , Greg and Hank are each to be given a piece of the fruit.
+```
+(a) Erica likes cherries and dates. 
+(b) Frank likes apples and cherries.
+(c) Greg likes bananas and cherries.
+(d) Hank likes apples , bananas , and dates.
+```
 We have 4 kids and 4 fruits. Every kid likes 2 to 3 kinds of fruits.
 
     Step 1: make constants for kids and fruits.
@@ -72,7 +79,7 @@ The smt command is here:
     (check-sat)
     (get-model)
 
-and the resul is here:
+and the result is here:
 
 ```
 sat
