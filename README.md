@@ -178,6 +178,8 @@ for all j in [1:9],
 for all k in [1:9],  
 for all i in [1:9],  
     i_j_k => not (or (i_j'_k for all j' in [1:9] such that j' != j))
+    i.e.
+    (assert (=> i_1_k (not (or i_2_k i_3_k ... i_9_k))))
 ```
 The concrete result is:
 ```
@@ -263,6 +265,8 @@ for all k in [1:9],
                      j' in [(ceil(j/3)-1)*3+1 : (ceil(j/3)-1)*3+1+2]
                      i != i' or j != j'
                      )
+    i.e.
+    (assert (=> i_j_k (not (or i'_j'_k ... ))))
 ```
 ### Part 2
 #### Question
@@ -274,15 +278,19 @@ input to the binary of SAT solver.[25 points]
 Step 1: make boolean variables.
 Step 2: add constraints.
     2.1: each cell has at least one value
-        for all i in [1:9], j in [1:9]
+        for all i in [1:9], j in [1:9], 
             i_j_1 or i_j_2 or ... or i_j_9
+            i.e.
+            (assert (or i_j_1 i_j_2 ... i_j_9))
     2.2: each cell has not more than one value
         for all i in [1:9], j in [1:9], k in [1:9]
         i_j_k => not or (i_j_k') for all k' in [1:9] such that k' != k
+                    (assert (=> i_j_1 (not (or i_j_2 ... i_j_9))))
     2.3: each number can occur at most once in every row
     2.4: each number can occur at most once in every column
     2.5: each number can occur at most once in every 3×3 sub-grid
 Step 3: add constraint from the question (figure 1)
 Step 4: check-sat and get-model
 ```
+The implementation of this plan is in the method problem_3() in [script.py](script.py).
 ![Soduku puzzle, Figure 1](https://github.com/MartinMeng008/COMP590HW2/blob/master/inputFiles/Sudoku_puzzle_figure1.png)
