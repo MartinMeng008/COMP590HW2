@@ -153,7 +153,7 @@ Constraint 3: adjacent nodes have different colors.
 ...
 (n_1 => not (2_1 or 3_1)) and (n_2 => not (2_2 or 3_2)) and ... and (n_m => not (2_m or 3_m)), if node n is adjacent to node 2 and node 3.
 ```
-This problem is solved in the is_colorable() method in the script. Now we can solve the quantitive problem by sending queries to this function, and this step is accomplished in the method colorability().   
+This problem is solved in the is_colorable() method in [script.py](script.py). Now we can solve the quantitive problem by sending queries to this function, and this step is accomplished by the method colorability() in [script.py](script.py).   
 
 The implementation of this plan is in the method problem_2() in [script.py](script.py).  
 The result of the method problem_2() in [script.py](script.py) is here:
