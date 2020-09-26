@@ -2,6 +2,112 @@
 
 import os
 from z3 import *
+from math import ceil
+
+def problem_3():
+    with open('resultingFiles/input_3', 'w') as f:
+
+        # Step 1: make boolean variables.
+        for i in range(1,10):
+            for j in range(1,10):
+                for k in range(1,10):
+                    var = 'c%i_%i_%i' % (i, j, k)
+                    f.write('(declare-const %s Bool)\n' % var)
+        f.write('\n')
+
+        # Step 2: each cell has at least one value.
+        for i in range(1,10):
+            for j in range(1,10):
+                stmt = '(assert (or' 
+                for k in range(1,10):
+                    stmt += ' c%i_%i_%i' % (i,j,k)
+                stmt += '))\n'
+                f.write(stmt)
+        f.write('\n')
+
+        # Step 3: each cell has not more than one value.
+        for i in range(1,10):
+            for j in range(1,10):
+                for k in range(1,10):
+                    stmt = '(assert (=> c%i_%i_%i (not (or' % (i,j,k)
+                    for _k in range(1,10):
+                        if _k != k:
+                            stmt += ' c%i_%i_%i' % (i,j,_k)
+                    stmt += '))))\n'
+                    f.write(stmt)
+        f.write('\n')
+
+        # Step 4: each number can occur at most once in every row.
+        for i in range(1,10):
+            for j in range(1,10):
+                for k in range(1,10):
+                    stmt = '(assert (=> c%i_%i_%i (not (or' % (i,j,k)
+                    for _j in range(1,10):
+                        if _j != j:
+                            stmt += ' c%i_%i_%i' % (i,_j,k)
+                    stmt += '))))\n'
+                    f.write(stmt)
+        f.write('\n')
+
+        # Step 5: each number can occur at most once in every column.
+        for i in range(1,10):
+            for j in range(1,10):
+                for k in range(1,10):
+                    stmt = '(assert (=> c%i_%i_%i (not (or' % (i,j,k)
+                    for _i in range(1,10):
+                        if _i != i:
+                            stmt += ' c%i_%i_%i' % (_i,j,k)
+                    stmt += '))))\n'
+                    f.write(stmt)
+        f.write('\n')
+        
+        # Step 6: each number can occur at most once in every 3×3 sub-grid.
+        for i in range(1,10):
+            base_i = (ceil(i/3) - 1) * 3 + 1
+            for j in range(1,10):
+                base_j = (ceil(j/3) - 1) * 3 + 1
+                for k in range(1,10):
+                    stmt = '(assert (=> c%i_%i_%i (not (or' % (i,j,k)
+                    for _i in range(base_i, base_i + 3):
+                        for _j in range(base_j, base_j + 3):
+                            if i != _i or j != _j:
+                                stmt += ' c%i_%i_%i' % (_i, _j, k) 
+                    stmt += '))))\n'
+                    f.write(stmt)
+        f.write('\n')
+        
+        # Step 7: add constraint from the question.
+        f.write('(assert c1_2_1)\n')
+        f.write('(assert c1_4_4)\n')
+        f.write('(assert c1_6_2)\n')
+        f.write('(assert c1_8_5)\n')
+        f.write('(assert c2_1_5)\n')
+        f.write('(assert c2_9_6)\n')
+        f.write('(assert c3_4_3)\n')
+        f.write('(assert c3_6_1)\n')
+        f.write('(assert c4_1_7)\n')
+        f.write('(assert c4_3_5)\n')
+        f.write('(assert c4_7_4)\n')
+        f.write('(assert c4_9_8)\n')
+        f.write('(assert c6_1_2)\n')
+        f.write('(assert c6_3_8)\n')
+        f.write('(assert c6_7_5)\n')
+        f.write('(assert c6_9_9)\n')
+        f.write('(assert c7_4_9)\n')
+        f.write('(assert c7_6_6)\n')
+        f.write('(assert c8_1_6)\n')
+        f.write('(assert c8_9_2)\n')
+        f.write('(assert c9_2_7)\n')
+        f.write('(assert c9_4_1)\n')
+        f.write('(assert c9_6_3)\n')
+        f.write('(assert c9_8_4)\n')
+    
+        # Step 8: solve the model.
+        f.write('(check-sat)\n')
+        f.write('(get-model)\n')
+
+    os.system('z3 -smt2 resultingFiles/input_3 > resultingFiles/output_3')
+
 
 def is_colorable(nodes, adjacent_list, num_colors):
     # return whether this graph is colorable with the given number of colors
@@ -175,6 +281,7 @@ def setup():
 
 def main():
     setup()
+    problem_3()
     problem_1_1()
     problem_1_2()
     problem_2()
