@@ -3,7 +3,8 @@ Author: Martin Meng
 
 This is the repository for HW2 of UNC's COMP 590: Program Verification and Synthesis.
 
-The file [script.py](script.py) contains the code for all questions.  
+The file [script.py](script.py) contains the code for all questions. The user can run the script in the main directory.  
+    Usage: ./script.py
 The directory [resultingFiles](resultingFiles) contains the output of the script. 
 Specifically, the input files of z3 are named "input_x_x" and the output files of z3 are named "output_x_x".
 
