@@ -3,8 +3,9 @@ Author: Martin Meng
 
 This is the repository for HW2 of UNC's COMP 590: Program Verification and Synthesis.
 
-The file 'script.py' contains the code for all questions.  
-The directory "resultingFiles" contains the output of the script.
+The file [script.py](script.py) contains the code for all questions.  
+The directory [resultingFiles](resultingFiles) contains the output of the script. 
+Specifically, the input files of z3 are named "input_x_x" and the output files of z3 are named "output_x_x".
 
 ## Problem 1 [Silly Puzzles] 
 
@@ -28,7 +29,10 @@ We have 4 kids and 4 fruits. Every kid likes 2 to 3 kinds of fruits.
     Step 3: add kids' preference.
     Step 4: check sat and get model.
 
-The result file is shown in resultingFiles/output\_1\_1. It says that one possible assignment is: 
+The implementation of this plan is in the method problem_1_1() in [script.py](script.py).
+
+The result file is shown in [resultingFiles/output_1_1](resultingFiles/output_1_1). It says that one possible assignment is: 
+
 ```
 Erica gets date
 Frank gets apple
@@ -64,8 +68,10 @@ The smt command is here:
 
     (check-sat)
     (get-model)
+    
+The implementation of this plan is in the method problem_1_2() in [script.py](script.py).
 
-The result is here:
+The result is here, also shown in the file [resultingFiles/output_1_2](resultingFiles/output_1_2):
 ```
 sat
 (model 
@@ -147,7 +153,10 @@ Constraint 3: adjacent nodes have different colors.
 ...
 (n_1 => not (2_1 or 3_1)) and (n_2 => not (2_2 or 3_2)) and ... and (n_m => not (2_m or 3_m)), if node n is adjacent to node 2 and node 3.
 ```
-This problem is solved in the is_colorable() method in the script. Now we can solve the quantitive problem by sending queries to this function, and this step is accomplished in the method colorability(). The result is here:
+This problem is solved in the is_colorable() method in the script. Now we can solve the quantitive problem by sending queries to this function, and this step is accomplished in the method colorability().   
+
+The implementation of this plan is in the method problem_2() in [script.py](script.py).  
+The result of the method problem_2() in [script.py](script.py) is here:
 ```
 The colorability of 6-node graph is: 2 colors
 The colorability of 20-node graph is: 4 colors
@@ -292,5 +301,7 @@ Step 2: add constraints.
 Step 3: add constraint from the question (figure 1)
 Step 4: check-sat and get-model
 ```
+
 The implementation of this plan is in the method problem_3() in [script.py](script.py).
+
 ![Soduku puzzle, Figure 1](https://github.com/MartinMeng008/COMP590HW2/blob/master/inputFiles/Sudoku_puzzle_figure1.png)
