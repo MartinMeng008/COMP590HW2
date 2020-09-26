@@ -282,6 +282,8 @@ for all k in [1:9],
 Encode the above constraints in a SAT solver and solve the Sudoku instance given in Figure 1. One of the widely used techniques is to encode these constraints using the API of the SAT solver. Two popular options are as follows; 1) Using Z3 (downloadable at http://z3.codeplex.com/) and use Python API and 2) Use MiniSAT (downloadable at http: //minisat.se/) and use C++ API. Alternatively, you can write code to generate constraints in SMT-2 format (described at http://smtlib.cs.uiowa.edu) and give the SMT-2 file as an
 input to the binary of SAT solver.[25 points]
 
+![Soduku puzzle, Figure 1](https://github.com/MartinMeng008/COMP590HW2/blob/master/inputFiles/Sudoku_puzzle_figure1.png)
+
 #### Solution
 ```
 Step 1: make boolean variables.
@@ -302,6 +304,10 @@ Step 3: add constraint from the question (figure 1)
 Step 4: check-sat and get-model
 ```
 
-The implementation of this plan is in the method problem_3() in [script.py](script.py).
+The implementation of this plan is in the method problem_3() in [script.py](script.py).  
+The input file to z3 is [resultingFiles/input_3](resultingFiles/input_3), and z3's output file is [resultingFiles/output_3](resultingFiles/output_3), which shows the solution of the sudoku as shown in the figure below.
 
-![Soduku puzzle, Figure 1](https://github.com/MartinMeng008/COMP590HW2/blob/master/inputFiles/Sudoku_puzzle_figure1.png)
+![Soduku solution, Figure 2](https://github.com/MartinMeng008/COMP590HW2/blob/master/resultingFiles/figure2_sudoku_solution.jpeg)
+
+
+
