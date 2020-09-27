@@ -174,7 +174,7 @@ This problem has two parts. In the first part, you will write the boolean constr
 ### Part 1:
 
 #### Solution: 
-Similar to problem 2, we make 9*9*9 = 729 boolean variables. An variable i_j_k == true iff k is placed at row i and column j.
+Similar to problem 2, we make 9x9x9 = 729 boolean variables. An variable i_j_k == true iff k is placed at row i and column j.
 ```
 1_1_1 ... 1_1_9, 1_2_1 ... 1_2_9, ... 1_9_1 ... 1_9_9,
 2_1_1 ... 2_1_9, 2_2_1 ... 2_2_9, ... 2_9_1 ... 2_9_9,
