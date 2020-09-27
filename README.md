@@ -108,11 +108,11 @@ and the result is here:
 ```
 sat
 (model 
-  (define-fun is\_Ted\_guilty () Bool
+  (define-fun is_Ted_guilty () Bool
     true)
-  (define-fun is\_Fred\_guilty () Bool
+  (define-fun is_Fred_guilty () Bool
     false)
-  (define-fun is\_Ed\_guilty () Bool
+  (define-fun is_Ed_guilty () Bool
     true)
 )
 ```
