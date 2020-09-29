@@ -31,7 +31,7 @@ We have 4 kids and 4 fruits. Every kid likes 2 to 3 kinds of fruits.
     Step 3: add kids' preference.
     Step 4: check sat and get model.
 
-The implementation of this plan is in the method problem_1_1() in [script.py](script.py).
+The implementation of this plan is in the method [problem_1_1()](https://github.com/MartinMeng008/COMP590HW2/blob/master/script.py#L216) in [script.py](script.py).
 
 The result file is shown in [resultingFiles/output_1_1](resultingFiles/output_1_1). It says that one possible assignment is: 
 
