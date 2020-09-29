@@ -71,7 +71,7 @@ The smt command is here:
     (check-sat)
     (get-model)
     
-The implementation of this plan is in the method problem_1_2() in [script.py](script.py).
+The implementation of this plan is in the method [problem_1_2()](https://github.com/MartinMeng008/COMP590HW2/blob/master/script.py#L194) in [script.py](script.py).
 
 The result is here, also shown in the file [resultingFiles/output_1_2](resultingFiles/output_1_2):
 ```
@@ -155,10 +155,10 @@ Constraint 3: adjacent nodes have different colors.
 ...
 (n_1 => not (2_1 or 3_1)) and (n_2 => not (2_2 or 3_2)) and ... and (n_m => not (2_m or 3_m)), if node n is adjacent to node 2 and node 3.
 ```
-This problem is solved in the is_colorable() method in [script.py](script.py). Now we can solve the quantitive problem by sending queries to this function, and this step is accomplished by the method colorability() in [script.py](script.py).   
+This problem is solved in the [is_colorable()](https://github.com/MartinMeng008/COMP590HW2/blob/master/script.py#L112) method in [script.py](script.py). Now we can solve the quantitive problem by sending queries to this function, and this step is accomplished by the method [colorability()](https://github.com/MartinMeng008/COMP590HW2/blob/master/script.py#L167) in [script.py](script.py).   
 
-The implementation of this plan is in the method problem_2() in [script.py](script.py).  
-The result of the method problem_2() in [script.py](script.py) is here:
+The implementation of this plan is in the method [problem_2()](https://github.com/MartinMeng008/COMP590HW2/blob/master/script.py#L187) in [script.py](script.py).  
+The result of the method [problem_2()](https://github.com/MartinMeng008/COMP590HW2/blob/master/script.py#L187) in [script.py](script.py) is here:
 ```
 The colorability of 6-node graph is: 2 colors
 The colorability of 20-node graph is: 4 colors
@@ -306,7 +306,7 @@ Step 3: add constraint from the question (figure 1)
 Step 4: check-sat and get-model
 ```
 
-The implementation of this plan is in the method problem_3() in [script.py](script.py).  
+The implementation of this plan is in the method [problem_3()](https://github.com/MartinMeng008/COMP590HW2/blob/master/script.py#L7) in [script.py](script.py).  
 The input file to z3 is [resultingFiles/input_3](resultingFiles/input_3), and z3's output file is [resultingFiles/output_3](resultingFiles/output_3), which shows the solution of the sudoku as shown in the figure below.
 
 ![Soduku solution, Figure 2](https://github.com/MartinMeng008/COMP590HW2/blob/master/resultingFiles/figure2_sudoku_solution.jpeg)
